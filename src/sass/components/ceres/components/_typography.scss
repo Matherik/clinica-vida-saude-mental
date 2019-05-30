@@ -11,11 +11,11 @@ html {
   }
 
   @media #{$large-and-up} {
-    font-size: 14.5px;
+    font-size: 15px;
   }
 
-  @media #{$large-and-up} {
-    font-size: 15px;
+  @media #{$extra-large-and-up} {
+    font-size: 16px;
   }
 
   font-family: $font-stack;
