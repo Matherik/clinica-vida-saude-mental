@@ -1,70 +1,70 @@
-@import "components/ceres/ceres";
+@import 'components/ceres/ceres';
 
 $colorFirst: #205a2d;
 $colorSecond: #328c46;
 
 .logo {
-  margin-top: 75px;
-  margin-bottom: 30px;
-  max-width: 365px;
+   margin-top: 75px;
+   margin-bottom: 30px;
+   max-width: 365px;
 }
 
 .card {
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.1);
-  iframe {
-    width: 100%;
-    height: 380px;
-  }
+   border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+   iframe {
+      width: 100%;
+      height: 380px;
+   }
 }
 
 .smallIcons {
-  max-width: 25px ;
+   max-width: 25px;
 }
 
 body {
-  background-color: #fafafa;
-  font-family: europa, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: $colorSecond;
+   background-color: #fafafa;
+   font-family: europa, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color: $colorSecond;
 }
 
 .colorFirst {
-  color: $colorFirst;
+   color: $colorFirst;
 }
 
 .colorSecond {
-  color: $colorSecond;
+   color: $colorSecond;
 }
 
 .elementinho {
-  border: none;
-  background-color: $colorFirst;
-  color: #fafafa;
-  padding: 10px 20px;
-  border-radius: 1000px;
-  margin: 15px 0;
-  font-family: inherit;
-  display: inline-block;
-  font-size: 17px;
-  cursor: pointer;
-  transition: background-color 300ms; 
-  &:hover {
-    background-color: darken($colorFirst, 5%);
-  }
+   border: none;
+   background-color: $colorFirst;
+   color: #fafafa;
+   padding: 10px 20px;
+   border-radius: 1000px;
+   margin: 15px 0;
+   font-family: inherit;
+   display: inline-block;
+   font-size: 17px;
+   cursor: pointer;
+   transition: background-color 300ms;
+   &:hover {
+      background-color: darken($colorFirst, 5%);
+   }
 }
 
 *:focus {
-  outline: none;
+   outline: none;
 }
 
 .smallTitle {
-  font-size: 18px;
-  color: $colorFirst;
+   font-size: 18px;
+   color: $colorFirst;
 }
 
 img {
-    width: 100%;
+   width: 100%;
 }
