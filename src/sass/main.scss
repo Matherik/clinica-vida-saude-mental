@@ -47,7 +47,17 @@ body {
   border-radius: 1000px;
   margin: 15px 0;
   font-family: inherit;
+  display: inline-block;
   font-size: 17px;
+  cursor: pointer;
+  transition: background-color 300ms; 
+  &:hover {
+    background-color: darken($colorFirst, 5%);
+  }
+}
+
+*:focus {
+  outline: none;
 }
 
 .smallTitle {
