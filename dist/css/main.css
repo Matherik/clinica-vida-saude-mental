@@ -5121,3 +5121,10 @@ body {
 img {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  /* line 68, src/sass/main.scss */
+  img {
+    width: 80%;
+  }
+}
